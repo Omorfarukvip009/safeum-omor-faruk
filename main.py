@@ -27,7 +27,7 @@ os.system('clear')
 
 print(Y+'ACCOUNT WILL SENDED INTO YOUR GROUP ') 
 print(C+"∞"*60)
-token =(f'7618892649:AAHLkBShWoPGPf8QpwXTwGokgPHqt-VyhJU')
+token =(f'8511607215:AAFQ7J2F4PTxDKXGkkSRkAFmS9LgcQvyrDc')
 os.system('clear')
 
 import time 
