@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(135deg, #3a6186, #89253e);
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    animation: fadeDown 1.2s ease-out;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start { background-color: #28a745; }
+.start:hover { background-color: #1e7e34; transform: scale(1.1); }
+
+.stop { background-color: #dc3545; }
+.stop:hover { background-color: #b21f2d; transform: scale(1.1); }
+
+.log-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 12px;
+    max-height: 400px;
+    overflow-y: auto;
+    animation: fadeUp 1.3s ease-out;
+}
+
+@keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
