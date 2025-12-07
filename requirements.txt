@@ -2,6 +2,7 @@ flask
 flask-sock
 gevent
 gevent-websocket
+gunicorn
 pyfiglet
 requests
 fake-useragent
