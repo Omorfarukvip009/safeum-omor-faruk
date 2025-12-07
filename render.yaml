@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: python-controller
-    env: node
-    plan: free
-    buildCommand: "npm install"
-    startCommand: "node server.js"
-    runtime: node
-    
