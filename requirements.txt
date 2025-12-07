@@ -1,0 +1,8 @@
+flask
+flask-sock
+gevent
+gevent-websocket
+pyfiglet
+requests
+fake-useragent
+websocket-client
