@@ -1,4 +1,0 @@
-pyfiglet
-requests
-fake_useragent
-websocket
