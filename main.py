@@ -27,7 +27,7 @@ os.system('clear')
 
 print(Y+'ACCOUNT WILL SENDED INTO YOUR GROUP ') 
 print(C+"∞"*60)
-token =(f'8511607215:AAFQ7J2F4PTxDKXGkkSRkAFmS9LgcQvyrDc')
+token =(f'7618892649:AAHLkBShWoPGPf8QpwXTwGokgPHqt-VyhJU')
 os.system('clear')
 
 import time 
@@ -40,7 +40,7 @@ ch='qwertyuioplkjhgfdsazxcvbnm1234567890'
 def create():
  global created
  global failed
- user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(7)))
+ user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(17)))
  
  tlg = f'''{user}:hhhh'''
  
