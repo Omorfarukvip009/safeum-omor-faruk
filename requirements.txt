@@ -1,9 +1,5 @@
-flask
-flask-sock
-gevent
-gevent-websocket
-gunicorn
 pyfiglet
 requests
-fake-useragent
+websocket
+fake_useragent
 websocket-client
